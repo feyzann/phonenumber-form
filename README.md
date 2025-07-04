@@ -73,6 +73,6 @@ If you want to contribute, please fork the repo and submit a pull request.
 
 ---
 
-## 📄 Lisans / License
+## Lisans / License
 
 MIT
