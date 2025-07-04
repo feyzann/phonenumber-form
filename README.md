@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Phone Number Application Form
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🇹🇷 Açıklama
+Bu proje, React ve Material UI kullanılarak oluşturulmuş, sade ve şık bir başvuru formudur.  
+- 📱 Telefon alanında ülke bayrağı ve +90 kodu sabittir.
+- Placeholder seçilen ülkeye göre dinamik değişmektedir.
+- Form tamamen stabil çalışmaktadır.
 
-## Available Scripts
+## 🇬🇧 Description
+This project is a simple and elegant application form built with React and Material UI.  
+- 📱 Phone input has a static country flag and code (+90 by default).
+- Placeholder dynamically changes based on the selected country.
+- The form is fully stable and functional.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Çalıştırmak / Run locally
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. Depoyu klonlayın / Clone the repository
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+git clone https://github.com/kullaniciadi/phonenumber-form.git
+cd phonenumber-form
+```
 
-### `npm test`
+### 2. Bağımlılıkları yükleyin / Install dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+```
 
-### `npm run build`
+### 3. Uygulamayı başlatın / Start the application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Uygulama otomatik olarak tarayıcınızda açılacaktır:  
+The app will automatically open in your browser: [http://localhost:3000](http://localhost:3000)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🗂️ Proje Yapısı / Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+phonenumber-form/
+  ├── public/
+  ├── src/
+  │   ├── components/
+  │   │   └── form/
+  │   │       ├── ApplicationForm.jsx
+  │   │       └── PhoneInput.jsx
+  │   ├── App.js
+  │   └── ...
+  ├── package.json
+  └── README.md
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Kullanılan Teknolojiler / Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React
+- Material UI
+- JavaScript
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 Katkı / Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Katkıda bulunmak isterseniz, lütfen bir fork oluşturun ve pull request gönderin.  
+If you want to contribute, please fork the repo and submit a pull request.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📄 Lisans / License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT
