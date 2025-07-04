@@ -2,7 +2,7 @@
 
 ## 🇹🇷 Açıklama
 Bu proje, React ve Material UI kullanılarak oluşturulmuş, sade ve şık bir başvuru formudur.  
-- Telefon alanında ülke bayrağı ve +90 kodu sabittir.
+- Telefon alanında ülke bayrağı ve +ülke kodu(+90) sabittir.
 - Placeholder seçilen ülkeye göre dinamik değişmektedir.
 - Form tamamen stabil çalışmaktadır.
 
